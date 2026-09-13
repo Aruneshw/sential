@@ -1,0 +1,13 @@
+﻿src/App.tsx(4,22): error TS2307: Cannot find module './pages/Patients' or its corresponding type declarations.
+src/components/BedCard.tsx(78,26): error TS18047: 'bed.estimatedMinutesRemaining' is possibly 'null'.
+src/components/BedCard.tsx(79,45): error TS18047: 'bed.estimatedMinutesRemaining' is possibly 'null'.
+src/components/BedCard.tsx(79,85): error TS18047: 'bed.estimatedMinutesRemaining' is possibly 'null'.
+src/components/Sidebar.tsx(3,44): error TS6133: 'AlertTriangle' is declared but its value is never read.
+src/pages/History.tsx(2,25): error TS6133: 'AlertTriangle' is declared but its value is never read.
+src/pages/History.tsx(2,40): error TS6133: 'Activity' is declared but its value is never read.
+src/pages/History.tsx(2,50): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/pages/PatientDetails.tsx(3,48): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/pages/PatientDetails.tsx(143,34): error TS18047: 'bed.estimatedMinutesRemaining' is possibly 'null'.
+src/pages/PatientDetails.tsx(144,53): error TS18047: 'bed.estimatedMinutesRemaining' is possibly 'null'.
+src/pages/PatientDetails.tsx(144,93): error TS18047: 'bed.estimatedMinutesRemaining' is possibly 'null'.
+src/pages/Reports.tsx(2,43): error TS6133: 'Navigation' is declared but its value is never read.
