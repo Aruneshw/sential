@@ -92,10 +92,6 @@ app.get('/api/beds/:bedId', (req, res) => {
     }
 });
 
-if (process.env.NODE_ENV !== 'production') {
-    app.listen(PORT, () => {
-        console.log(`Backend server running on http://localhost:${PORT}`);
-    });
-}
-
-export default app;
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Backend server running on port ${PORT}`);
+});
