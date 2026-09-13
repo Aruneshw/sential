@@ -95,3 +95,5 @@ app.get('/api/beds/:bedId', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Backend server running on port ${PORT}`);
 });
+
+export default app;
